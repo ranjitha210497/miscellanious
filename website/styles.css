@@ -1,0 +1,40 @@
+body {
+    color: green;
+}
+
+.header, .navigation, .footer {
+    color: green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    border: 1px solid black;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content-left, .content-main, .content-right {
+    height: 35vh;
+    border: 1px solid black;
+    width: 30vw;
+}
+
+
+
+.footer {
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+    margin-top: 20px;
+}
